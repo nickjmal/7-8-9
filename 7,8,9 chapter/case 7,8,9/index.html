@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="ch1.css" rel="stylesheet">
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+<body>
+    <h2 id="header">What age did you start collecting comics?</h2>
+    <input type="text" id="inp"/>
+    <button onclick="pressed()">Click</button>
+    <p id= "output"></p>
+    <header>
+        <h1>Comic Books</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="items.html">Menu</a></li>
+            <li><a href="photos.html">PhotoGallery</a></li>
+            <li><a href="collection.html">Collection</a></li>
+        </ul>
+
+        
+    </nav>
+    <article>
+        <h2>What Comic Book company do you prefer?</h2>
+        <form>
+            <fieldset class="checks">
+                <legend><span>Comic Book company</span></legend>
+                <input type="checkbox" id="Marvel" value="Marvel" name="lodgings" />
+                <label for="Marvel" id="Marvel">Marvel</label>
+                <input type="checkbox" id="DC" value="DC" name="lodgings" />
+                <label for="DC" id="DC">DC</label>
+                <input type="checkbox" id="Image" value="Image" name="lodgings" />
+                <label for="Image" id="Image">Image</label>
+                <input type="checkbox" id="Boom" value="Boom" name="lodgings" />
+                <label for="Boom" id="Boom">Boom</label>
+                <input type="checkbox" id="Darkhorse" value="Darkhorse" name="lodgings" />
+                <label for="DarkHorse" id="DarkHorse">DarkHorse</label>
+              </fieldset>
+            <fieldset class="text">
+              <label for="uname"></label>
+              <input type="text" id="uname" />
+              <p id="usernameError" class="errorMsg"></p>
+              <label for="pw1"></label>
+              <input type="password" id="pw1" />
+              <label for="pw2"></label>
+              <input type="password" id="pw2" />
+              <p id="passwordError" class="errorMsg"></p>
+              <label for="email"></label>
+              <input type="email" id="emailbox" />
+              <p id="emailError" class="errorMsg"></p>
+           </fieldset>
+          
+           
+        </form>
+        <section id="profile">
+           
+           <div id="lodgingsSection">
+              <h4>Comic Book Company</h4>
+              <ul id="profileLodgings"></ul>
+           </div>
+        </section>
+     </article>
+    <script src="ch4.js"></script>
+    <script src="ch1.js"></script>
+    <script src="button.js"></script>
+</body>
+</html>
